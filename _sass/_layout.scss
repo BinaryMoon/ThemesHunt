@@ -63,8 +63,8 @@ svg {
 
 .page-content {
 
-	width: 50%;
-	margin-left: 50%;
+	width: 100% - $header-width;
+	margin-left: $header-width;
 
 }
 
