@@ -1,0 +1,96 @@
+
+.masthead {
+
+	position: relative;
+
+	nav {
+
+		@include post-meta-data;
+		text-align: center;
+		background: $canvas-white;
+
+		a {
+
+			display: inline-block;
+			padding: ( $grid-line-height / 2 ) ( $grid-gutter / 2 );
+			//color: $canvas-white;
+
+		}
+
+		span {
+
+			//color: $canvas-white;
+			opacity: 0.4;
+
+		}
+
+	}
+
+	> * {
+
+		position: relative;
+		z-index: 1;
+
+	}
+
+	.branding {
+
+		text-align: center;
+		padding: ( $grid-line-height * 4 ) $grid-gutter ( $grid-line-height * 3 ) ( $grid-gutter );
+
+		h1 {
+
+			@include modular-scale( gamma );
+			margin: 0 0 ( $grid-line-height / 4 ) 0;
+			display: inline-block;
+
+			span {
+
+				font-weight: bold;
+
+			}
+
+			a {
+
+				text-decoration: none;
+
+				&:hover {
+
+					text-decoration: underline;
+
+				}
+
+			}
+
+		}
+
+		h2 {
+
+			@include modular-scale( zeta );
+
+		}
+
+		img {
+
+			max-height: 2.5rem;
+			margin-right: $grid-gutter / 2;
+			display: inline-block;
+			vertical-align: sub;
+
+		}
+
+		p {
+
+			margin: 0;
+
+			&.sub {
+
+				@include post-meta-data;
+
+			}
+
+		}
+
+	}
+
+}

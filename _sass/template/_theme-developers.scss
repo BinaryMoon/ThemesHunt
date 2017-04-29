@@ -1,0 +1,39 @@
+.theme-developers {
+
+	.author {
+
+		clear: both;
+		margin-bottom: $grid-line-height * $grid-line-height-multiplier;
+		@include clear;
+
+		.author-icon-wrapper {
+
+			float: left;
+
+		}
+
+		.author-info {
+
+			float: left;
+
+		}
+
+	}
+
+}
+
+.theme-developer {
+
+	.developer-links {
+
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+
+		a {
+
+		}
+
+	}
+
+}

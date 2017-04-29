@@ -1,0 +1,33 @@
+---
+layout: default
+body_class: theme
+---
+
+	<div class="content theme-intro">
+
+		<h1 class="theme-name">{{ page.title | escape }}</h1>
+
+		<em class="theme-price">{% include functions/price.html price=page.price %}</em>
+
+		<p class="intro">{{ page.intro }}</p>
+
+		{% include functions/theme-image.html theme=page.title image="screenshot.png" %}
+
+		{% include functions/theme-meta.html page=page %}
+
+	</div>
+
+	<div class="content theme-description">
+
+		{{ content }}
+
+		{% include functions/theme-meta.html page=page %}
+
+	</div>
+
+	<div class="content">
+
+		{% include functions/developer-intro.html developer=page.developer %}
+		{% include functions/developer-themes.html developer=page.developer %}
+
+	</div>
