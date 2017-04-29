@@ -5,7 +5,6 @@
 	@include modular-scale( epsilon );
 	@include container;
 	clear: both;
-	background: lighten( $canvas-color, 4% );
 
 	p:last-child {
 
@@ -13,16 +12,18 @@
 
 	}
 
-	&:nth-child( odd ) {
-
-		background: $canvas-white;
-
-	}
-
-	h1, h2 {
+	h1,
+	h2 {
 
 		@include modular-scale( gamma );
 		margin-bottom: $grid-line-height * $grid-line-height-multiplier;
+		font-weight: 700;
+
+		&.minor {
+
+			@include post-meta-data;
+
+		}
 
 	}
 

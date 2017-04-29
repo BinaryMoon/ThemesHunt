@@ -5,6 +5,7 @@ $font-family-serif: 'Advent Pro', serif;
 //$font-base: 18;
 $font-family-body: $font-family-serif;
 $font-family-header: $font-family-sans;
+$font-uppercase-spacing: 0.15em;
 //$line-height: 1.5;
 
 // enable/ disable debug features
@@ -53,7 +54,7 @@ $comments-margin: 4%;
 
 // grid sizes
 //$grid-line-height: $line-height * 1rem;
-$grid-total-width: 54rem;
+$grid-total-width: 60rem;
 $grid-line-height-multiplier: 1.5;
 //$grid-gutter: 3em;
 //$grid-column-gutter: 1 / 2;

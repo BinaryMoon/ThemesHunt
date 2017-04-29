@@ -1,12 +1,10 @@
 footer {
 
-	//background: $canvas-grey-5;
+	background: $canvas-grey-5;
 
 	.copyright {
 
-		padding: ( $grid-line-height * 2 ) 0;
 		@include post-meta-data;
-		text-align: center;
 		opacity: 0.6;
 
 		&:hover {

@@ -1,0 +1,27 @@
+---
+layout: default
+body_class: home
+---
+<div class="content">
+
+	<h2 class="minor">Recent Theme Collections</h2>
+
+</div>
+
+<div class="content">
+
+	<h2 class="minor">Recent Themes</h2>
+
+	{% for theme in site.themes %}
+
+		{% include functions/theme.html theme=theme %}
+
+	{% endfor %}
+
+</div>
+
+<div class="content">
+
+	<h2 class="minor">Recent News</h2>
+
+</div>

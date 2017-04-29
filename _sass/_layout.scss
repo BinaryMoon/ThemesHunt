@@ -1,7 +1,6 @@
 body {
 
-	background: $canvas-color url( ../images/masthead.png?#{$decache} ) top center no-repeat;
-	background-size: contain;
+	background: $canvas-white;
 
 }
 
@@ -62,26 +61,10 @@ svg {
 
 }
 
-.description {
-
-	text-align: center;
-	@include modular-scale( epsilon );
-
-}
-
-.display_archive {
-
-	.campaign {
-
-		margin-bottom: $grid-line-height;
-
-	}
-
-}
-
 .page-content {
 
-	margin-bottom: $grid-line-height * $grid-line-height-multiplier * 2;
+	width: 50%;
+	margin-left: 50%;
 
 }
 
