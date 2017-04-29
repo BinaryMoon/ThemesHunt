@@ -55,50 +55,40 @@
 		transform: translateX( ( $grid-gutter * 6 / -2 ) );
 		background: $canvas-grey-100;
 		display: none;
-		min-height: $grid-line-height * 5;
 		box-shadow: $box-shadow;
+		color: $canvas-white;
+		text-align: center;
+		padding: ( $grid-line-height / 2 ) ( $grid-gutter / 4 );
 
 		img {
 
 			display: block;
 		}
 
-		.theme-info {
+		.theme-description,
+		.theme-name {
 
-			position: absolute;
-			bottom: 0;
-			left: 0;
-			right: 0;
-			color: $canvas-white;
-			line-height: 1;
-			text-align: left;
+			padding: 0.25em 1em;
+			background: rgba( $canvas-grey-100, 0.9 );
 
-			.theme-description,
-			.theme-name {
+		}
 
-				padding: 0.25em 1em;
-				background: rgba( $canvas-grey-100, 0.9 );
+		.theme-name {
 
-			}
+			display: inline-block;
 
-			.theme-name {
+		}
 
-				display: inline-block;
+		.theme-price {
 
-			}
+			color: $canvas-green;
 
-			.theme-price {
+		}
 
-				color: $canvas-green;
+		.theme-description {
 
-			}
-
-			.theme-description {
-
-				display: block;
-				@include modular-scale( eta );
-
-			}
+			display: block;
+			@include modular-scale( zeta );
 
 		}
 

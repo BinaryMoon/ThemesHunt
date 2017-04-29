@@ -11,9 +11,7 @@
 		</a>
 
 		<div class="theme-hover">
-			<div class="theme-info">
-				<span class="theme-name">{{ include.theme.title | escape }} <em class="theme-price">{% include functions/price.html price=include.theme.price %}</em></span>
-				<span class="theme-description">{{ include.theme.intro | escape }}</span>
-			</div>
+			<span class="theme-name">{{ include.theme.title | escape }} <em class="theme-price">{% include functions/price.html price=include.theme.price %}</em></span>
+			<span class="theme-description">{{ include.theme.intro | escape }}</span>
 		</div>
 	</div>
