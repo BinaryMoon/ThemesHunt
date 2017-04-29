@@ -14,4 +14,14 @@
 	{% if jekyll.environment == "production" and site.google_analytics %}
 	{% include google-analytics.html %}
 	{% endif %}
+
+	{% if page.image %}
+	<style>
+		.masthead:before {
+
+			background-image: url( {{ page.image | absolute_url }} );
+
+		}
+	</style>
+	{% endif%}
 </head>
