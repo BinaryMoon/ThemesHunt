@@ -1,3 +1,4 @@
 ---
-layout: page
+layout: home
+description: Hunting WordPress Themes
 ---
