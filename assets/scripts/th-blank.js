@@ -1,7 +1,7 @@
 /**
  *
  */
-var MWP_Name = (function() {
+var TH_Name = (function() {
 
 
 	/**

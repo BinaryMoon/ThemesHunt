@@ -1,7 +1,7 @@
 /**
  * Smoothly scroll a page to an anchor.
  */
-var MWP_SmoothScroll = (function() {
+var TH_SmoothScroll = (function() {
 
 	"use strict";
 

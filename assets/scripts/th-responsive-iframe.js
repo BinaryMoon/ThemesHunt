@@ -1,7 +1,7 @@
 /**
  * Add a div wrapper around iframes so that they can be targetted by css.
  */
-var MWP_ResponsiveIframe = (function() {
+var TH_ResponsiveIframe = (function() {
 
 	/**
 	 * Selectors suitable for video providers.

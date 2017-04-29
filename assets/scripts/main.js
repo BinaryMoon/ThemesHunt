@@ -1,14 +1,12 @@
 ---
 ---
-{% include_relative mwp-smooth-scroll.js %}
+{% include_relative th-smooth-scroll.js %}
 
-{% include_relative mwp-responsive-iframe.js %}
+{% include_relative th-responsive-iframe.js %}
 
-{% include_relative mwp-natural-language-form.js %}
+{% include_relative th-search.js %}
 
-{% include_relative mwp-filter-themes.js %}
-
-{% include_relative mwp-theme-list.js %}
+{% include_relative th-theme-list.js %}
 
 ;( function( window, document, $ ) {
 
@@ -20,11 +18,10 @@
 	$( document ).ready(
 		function() {
 
-			MWP_NaturalLanguageForm.init();
-			MWP_SmoothScroll.init();
-			MWP_FilterThemes.init();
-			MWP_ThemeList.init();
-			MWP_ResponsiveIframe.init();
+			TH_Search.init();
+			TH_SmoothScroll.init();
+			TH_ThemeList.init();
+			TH_ResponsiveIframe.init();
 
 		}
 	);

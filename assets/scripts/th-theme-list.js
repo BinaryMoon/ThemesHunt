@@ -1,7 +1,7 @@
 /**
  * Functions related to the theme list.
  */
-var MWP_ThemeList = (function() {
+var TH_ThemeList = (function() {
 
 	/**
 	 * Show the theme hover information
@@ -9,15 +9,6 @@ var MWP_ThemeList = (function() {
 	 * @param  {object} what Theme element being hovered.
 	 */
 	var showThemeInfo = function( what ) {
-
-		var $what = $( what );
-		var $screenshot = $what.find( '.theme-hover img' );
-
-		// If there's no image source then replace it with the data source.
-		// Acts as lazy loading so we don't load all the screenshots at once.
-		if ( ! $screenshot.attr( 'src' ) ) {
-			$screenshot.attr( 'src', $screenshot.data( 'src' ) );
-		}
 
 		$( what ).find( '.theme-hover' ).show();
 
