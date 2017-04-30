@@ -31,7 +31,7 @@ defaults:
   - scope:
       type: pages
     values:
-      image: /assets/images/og-image.png
+      image: /assets/images/og-image.jpg
   - scope:
       type: themes
     values:
