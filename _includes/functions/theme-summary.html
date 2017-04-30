@@ -1,0 +1,11 @@
+{% for theme in site.themes %}
+	{% if theme.title == include.theme %}
+
+<div class="theme-summary">
+	<h2>{{ theme.title }}</h2>
+	{% include functions/theme-image.html theme=theme.title image="screenshot.png" %}
+</div>
+
+	{% endif %}
+
+{% endfor %}
