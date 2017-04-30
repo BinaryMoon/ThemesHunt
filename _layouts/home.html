@@ -12,11 +12,11 @@ body_class: home
 
 <div class="content">
 
-	<h2 class="minor">Recent Themes</h2>
+	<h2 class="minor">Recent WordPress Themes</h2>
 
 	<div class="themes-list">
 
-		{% for theme in site.themes %}
+		{% for theme in site.themes limit: 8 %}
 
 			{% include functions/theme.html theme=theme %}
 
@@ -24,10 +24,14 @@ body_class: home
 
 	</div>
 
+	<a href="{% link _pages/themes.md %}" class="button">All WordPress Themes</a>
+
 </div>
 
+<!--
 <div class="content">
 
 	<h2 class="minor">Recent News</h2>
 
 </div>
+-->
