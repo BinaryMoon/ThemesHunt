@@ -25,6 +25,9 @@ collections:
   themes:
     output: true
     permalink: /wordpress-themes/:name/
+  theme-roundups:
+    output: true
+    permalink: /:title/
 
 # Default properties
 defaults:
@@ -32,10 +35,17 @@ defaults:
       type: pages
     values:
       image: /assets/images/og-image.jpg
+      description: Hunting WordPress Themes
   - scope:
       type: themes
     values:
       layout: theme
+      description: Hunting WordPress Themes
+  - scope:
+      type: theme-roundups
+    values:
+      layout: page
+      description: Hunting WordPress Themes
 
 gems:
   - jekyll-seo-tag

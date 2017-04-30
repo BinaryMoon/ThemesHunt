@@ -1,0 +1,20 @@
+---
+layout: default
+body_class: roundups
+---
+
+	<div class="content">
+
+		<h1>{{ page.title | escape }}</h1>
+
+		<section class="theme-roundups">
+
+			{% for roundup in site.theme-roundups %}
+
+				<h2><a href="{{ roundup.url }}">{{ roundup.title }}</a></h2>
+
+			{% endfor %}
+
+		</section>
+
+	</div>
