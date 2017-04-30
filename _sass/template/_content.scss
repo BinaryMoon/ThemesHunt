@@ -17,7 +17,7 @@
 
 		@include modular-scale( gamma );
 		margin-bottom: $grid-line-height * $grid-line-height-multiplier;
-		font-weight: 700;
+		font-weight: bold;
 
 		&.minor {
 

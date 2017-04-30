@@ -15,6 +15,7 @@
 @mixin post-meta-data( $font-size: zeta ) {
 
 	@include modular-scale( $font-size );
+	font-family: $font-family-sans;
 	text-transform: uppercase;
 	letter-spacing: $font-uppercase-spacing;
 	font-weight: 500;
