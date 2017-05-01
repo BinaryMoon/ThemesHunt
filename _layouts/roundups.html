@@ -11,7 +11,7 @@ body_class: roundups
 
 			{% for roundup in site.theme-roundups %}
 
-				<h2><a href="{{ roundup.url }}">{{ roundup.title }}</a></h2>
+				{% include functions/theme-roundup.html roundup=roundup %}
 
 			{% endfor %}
 
