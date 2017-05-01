@@ -46,6 +46,7 @@ defaults:
     values:
       layout: roundup
       description: Hunting WordPress Themes
+      icon: roundup.png
 
 gems:
   - jekyll-seo-tag
