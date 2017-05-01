@@ -7,14 +7,6 @@ body_class: roundups
 
 		<h1>{{ page.title | escape }}</h1>
 
-		<section class="theme-roundups">
-
-			{% for roundup in site.theme-roundups %}
-
-				{% include functions/theme-roundup.html roundup=roundup %}
-
-			{% endfor %}
-
-		</section>
+		{% include roundups.html %}
 
 	</div>

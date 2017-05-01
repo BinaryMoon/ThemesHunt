@@ -1,0 +1,15 @@
+{% assign limit = 99999 %}
+{% if include.limit %}
+{% assign limit = include.limit %}
+{% endif %}
+
+<section class="theme-roundups">
+
+{% assign roundups = site.theme-roundups | order:'date' | reverse %}
+{% for roundup in roundups limit:limit %}
+
+	{% include functions/theme-roundup.html roundup=roundup %}
+
+{% endfor %}
+
+</section>
