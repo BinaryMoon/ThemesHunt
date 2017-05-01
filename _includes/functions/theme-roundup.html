@@ -1,1 +1,16 @@
-<h2><a href="{{ include.roundup.url }}">{{ include.roundup.title }}</a></h2>
+<div class="roundup">
+
+	{% if include.roundup.icon %}
+	<a href="{{ include.roundup.url }}" class="roundup-icon">
+		<img src="{{ "/assets/roundups/" | relative_url }}{{ include.roundup.icon }}" />
+	</a>
+	{% endif %}
+
+	<div class="roundup-meta">
+
+		<h2><a href="{{ include.roundup.url }}">{{ include.roundup.title }}</a></h2>
+		<p>{{ include.roundup.description }}</p>
+
+	</div>
+
+</div>

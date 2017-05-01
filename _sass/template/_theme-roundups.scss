@@ -1,0 +1,38 @@
+.theme-roundups {
+
+	.roundup {
+
+		display: flex;
+		margin: 0 ( $grid-gutter / -2 ) ( $grid-line-height * $grid-line-height-multiplier ) ( $grid-gutter / -2 );
+
+		.roundup-icon {
+
+			padding: 0 ( $grid-gutter / 2 );
+			width: 25%;
+
+			img {
+
+				display: block;
+
+			}
+
+		}
+
+		.roundup-meta {
+
+			padding: 0 ( $grid-gutter / 2 );
+			margin-left: $grid-gutter / -2;
+			width: 75%;
+
+			h2 {
+
+				margin: 0;
+				@include modular-scale( delta );
+
+			}
+
+		}
+
+	}
+
+}
