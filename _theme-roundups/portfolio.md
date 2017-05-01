@@ -1,6 +1,6 @@
 ---
 title: Top 10 WordPress Portfolio Themes
-slug: top wordpress magazine themes
+slug: best wordpress magazine themes
 ---
 This is a magazine theme.
 
