@@ -1,6 +1,7 @@
 ---
-title: Top 10 WordPress Portfolio Themes
+title: Top 10 WordPress Business Themes
 slug: amazing wordpress business themes
+date: 2017-05-01 12:56:00 0100
 ---
 This is a magazine theme.
 
