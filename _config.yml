@@ -44,7 +44,7 @@ defaults:
   - scope:
       type: theme-roundups
     values:
-      layout: page
+      layout: roundup
       description: Hunting WordPress Themes
 
 gems:

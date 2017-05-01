@@ -1,0 +1,27 @@
+---
+layout: default
+body_class: page
+---
+
+	<div class="content">
+
+		<h1>{{ page.title | escape }} of {{ site.time | date: '%Y' }}</h1>
+
+		{% if page.last-updated %}
+		<p>Last updated: {{ page.last-updated }}</p>
+		{% endif %}
+
+		{{ content }}
+
+	</div>
+
+	<div class="content">
+
+		<h2>More WordPress Theme Roundups</h2>
+
+		{% for roundup in site.theme-roundups limit: 4 %}
+
+			{% include functions/theme-roundup.html roundup=roundup %}
+
+		{% endfor %}
+	</div>
