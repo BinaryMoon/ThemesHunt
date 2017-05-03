@@ -1,7 +1,7 @@
 # Site settings
 # accessible in the templates via {{ site.myvariable }}.
 title: Themes Hunt
-description: >
+description: The Hunt for the perfect WordPress theme
 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: https://themeshunt.com # the base hostname & protocol for your site, e.g. http://example.com
@@ -35,19 +35,19 @@ defaults:
   - scope:
       type: pages
     values:
-      image: /assets/images/og-image.jpg
+      image: "/assets/images/og-image.jpg"
       description: Hunting WordPress Themes
   - scope:
       type: themes
     values:
       layout: theme
-      description: Hunting WordPress Themes
+      description: "Hunting WordPress Themes"
   - scope:
       type: theme-roundups
     values:
       layout: roundup
-      description: Hunting WordPress Themes
-      icon: roundup.png
+      description: "Hunting WordPress Themes"
+      icon: "roundup.png"
 
 gems:
   - jekyll-seo-tag
