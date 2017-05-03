@@ -1,7 +1,7 @@
 .theme-summary {
 
 	position: relative;
-	margin-bottom: $grid-line-height * $grid-line-height-multiplier;
+	margin-bottom: $grid-line-height;
 	display: flex;
 	box-shadow: 0 1rem 2rem 0.2rem rgba(0,0,0,0.1);
 
@@ -12,6 +12,7 @@
 		img {
 
 			width: 100%;
+			display: block;
 
 		}
 
@@ -32,5 +33,11 @@
 		}
 
 	}
+
+}
+
+.theme-content {
+
+	margin-bottom: $grid-line-height * $grid-line-height-multiplier * 2;
 
 }

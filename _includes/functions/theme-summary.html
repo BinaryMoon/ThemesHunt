@@ -2,7 +2,7 @@
 	{% if theme.title == include.theme %}
 
 <div class="theme-summary">
-	<div class="theme-screenshot">		
+	<div class="theme-screenshot">
 		{% include functions/theme-image.html theme=theme.title image="screenshot.png" %}
 	</div>
 	<div class="theme-meta">
@@ -10,6 +10,12 @@
 		<p>{{ theme.description }}</p>
 		<a href="{{ theme.theme_info_url }}" class="button">{{ theme.title }} Website</a>
 	</div>
+</div>
+
+<div class="theme-content" markdown>
+
+	{{ theme.intro }}
+
 </div>
 
 	{% endif %}
