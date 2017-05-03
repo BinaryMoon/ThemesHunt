@@ -2,8 +2,11 @@
 	{% if theme.title == include.theme %}
 
 <div class="theme-summary">
-	<h2>{{ theme.title }}</h2>
 	{% include functions/theme-image.html theme=theme.title image="screenshot.png" %}
+	<div class="theme-meta">
+		<h2>{{ theme.title }}</h2>
+		<a href="{{ theme.theme_info_url }}">{{ theme.title }} Website</a>
+	</div>
 </div>
 
 	{% endif %}
