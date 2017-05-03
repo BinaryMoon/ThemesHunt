@@ -51,7 +51,6 @@ defaults:
 gems:
   - jekyll-seo-tag
   - jekyll-redirect-from
-  - jekyll-paginate
 exclude:
   - Gemfile
   - Gemfile.lock
