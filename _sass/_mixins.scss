@@ -34,7 +34,7 @@
 
 }
 
-@mixin button( $color: $canvas-red ) {
+@mixin button( $color: $canvas-color ) {
 
 	background: $color;
 	color: contrast( $color );
