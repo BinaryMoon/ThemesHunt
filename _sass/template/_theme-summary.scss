@@ -1,8 +1,9 @@
 .theme-summary {
 
 	position: relative;
-	margin-bottom: $grid-line-height;
+	margin: ( $grid-line-height * 2 ) 0;
 	padding-left: 52%;
+	min-height: 400px;
 
 	.theme-screenshot {
 
@@ -23,9 +24,12 @@
 
 	.theme-meta {
 
+		margin-bottom: $grid-line-height * 2;
+
 		h3 {
 
 			@include modular-scale( gamma );
+			font-weight: bold;
 
 		}
 
