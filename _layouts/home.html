@@ -2,38 +2,16 @@
 layout: default
 body_class: home
 ---
-<div class="content">
+<div class="content home-intro">
 
-	<h2 class="minor">Recent WordPress Theme Roundups</h2>
+	<h2>We sift through the rubbish to help you find the perfect WordPress theme. You can check out our <a href="{% link _pages/roundups.md %}">Theme Roundups</a>, our collection of awesome <a href="{% link _pages/themes.md %}">WordPress Themes</a>, or search for the perfect WordPress theme.</h2>
 
-	{% include roundups.html limit=4 %}
+	<h3>Theme Roundups</h3>
 
-	<a href="{% link _pages/roundups.md %}" class="button">All Theme Roundups</a>
+	<p>Our theme roundups are lists of themes perfect for different situations. Whether that's finding an accessible theme, or something suitable for a video game magazine.</p>
 
-</div>
+	<h3>WordPress Themes</h3>
 
-<div class="content">
-
-	<h2 class="minor">Recent WordPress Themes</h2>
-
-	<div class="themes-list">
-
-		{% for theme in site.themes limit: 8 %}
-
-			{% include functions/theme.html theme=theme %}
-
-		{% endfor %}
-
-	</div>
-
-	<a href="{% link _pages/themes.md %}" class="button">All WordPress Themes</a>
+	<p>All of the WordPress themes we feature are from theme shops we admire. These are not kitchen sink themes. They look good, are well coded, and easy to use. No complex control panels. No slow loading javascript (who really needs 3 different sliders?). Just good quality themes.</p>
 
 </div>
-
-<!--
-<div class="content">
-
-	<h2 class="minor">Recent News</h2>
-
-</div>
--->
