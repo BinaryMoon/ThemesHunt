@@ -12,6 +12,12 @@
 
 	}
 
+	a {
+
+		box-shadow: none;
+
+	}
+
 	.branding {
 
 		text-align: center;
@@ -30,12 +36,6 @@
 
 				text-decoration: none;
 				color: $canvas-grey-100;
-
-				&:hover {
-
-					text-decoration: underline;
-
-				}
 
 			}
 
