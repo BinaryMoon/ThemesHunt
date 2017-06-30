@@ -1,21 +1,14 @@
 {% for theme in site.themes %}
 	{% if theme.title == include.theme %}
 
-<div class="theme-summary">
-	<div class="theme-screenshot">
-		{% include functions/theme-image.html theme=theme.title image="screenshot.png" %}
-	</div>
-	<div class="theme-meta">
-		<h3>{{ theme.title }}</h3>
-		<p>{{ theme.description }}</p>
-		<a href="{{ theme.theme_info_url }}" class="button">{{ theme.title }} Website</a>
-	</div>
+<div class="theme-screenshot">
+	{% include functions/theme-image.html theme=theme.title image="screenshot.png" %}
 </div>
 
-<div class="theme-content" markdown>
-
-	{{ theme.intro }}
-
+<div class="theme-meta">
+	<h3>{{ theme.title }}</h3>
+	<p>{{ theme.description }}</p>
+	<a href="{{ theme.theme_info_url }}">{{ theme.title }} Website</a>
 </div>
 
 	{% endif %}
