@@ -15,7 +15,7 @@ $debug: false;
 $canvas-white: #fff;
 $canvas-green: #59E6A4;
 //$canvas-green-dark: darken( $canvas-green, 12% );
-$canvas-blue: #3498db;
+$canvas-blue: #097AA6;
 //$canvas-blue-dark: darken( $canvas-blue, 12% );
 //$canvas-red: #E74C3C;
 //$canvas-red-dark: darken( $canvas-red, 12% );
@@ -54,7 +54,7 @@ $comments-margin: 4%;
 
 // grid sizes
 //$grid-line-height: $line-height * 1rem;
-$grid-total-width: 60rem;
+$grid-total-width: 80rem;
 $grid-line-height-multiplier: 1.5;
 //$grid-gutter: 3em;
 //$grid-column-gutter: 1 / 2;
@@ -99,4 +99,4 @@ $header-width: 100% - 61.7%;
 
 $border-radius: 2rem;
 
-$form-input-background: rgba( 255, 255, 255, 0.25 );
+$form-input-background: lighten( mix( $canvas-green, $canvas-blue ), 10% );

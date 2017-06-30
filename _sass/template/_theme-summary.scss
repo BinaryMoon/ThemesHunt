@@ -2,12 +2,15 @@
 
 	position: relative;
 	margin-bottom: $grid-line-height;
-	display: flex;
-	box-shadow: 0 1rem 2rem 0.2rem rgba(0,0,0,0.1);
+	padding-left: 52%;
 
 	.theme-screenshot {
 
-		width: 50%;
+		box-shadow: 0 1rem 2rem 0.2rem rgba(0,0,0,0.1);
+		width: 48%;
+		position: absolute;
+		top: 0;
+		left: 0;
 
 		img {
 
@@ -20,15 +23,9 @@
 
 	.theme-meta {
 
-		padding: $grid-line-height ( $grid-gutter / 2 );
-
 		h3 {
 
-			margin: 0;
-
-		}
-
-		p {
+			@include modular-scale( gamma );
 
 		}
 
