@@ -12,6 +12,13 @@
 
 	}
 
+	ul,
+	p {
+
+		margin-bottom: $grid-line-height * $grid-line-height-multiplier;
+
+	}
+
 	h1 {
 
 		@include modular-scale( alpha );

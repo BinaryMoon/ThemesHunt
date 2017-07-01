@@ -63,8 +63,6 @@ body.theme {
 		ul,
 		p {
 
-			margin-bottom: $grid-line-height * $grid-line-height-multiplier;
-
 			&:not(.image) {
 
 				max-width: $grid-total-width * 0.5;

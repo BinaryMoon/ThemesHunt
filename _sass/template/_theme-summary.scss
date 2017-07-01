@@ -33,6 +33,19 @@
 
 		}
 
+		p {
+
+			@include post-meta-data;
+			margin: 0;
+
+		}
+
+		a {
+
+			font-weight: bold;
+
+		}
+
 	}
 
 }
