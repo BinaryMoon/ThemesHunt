@@ -8,17 +8,15 @@ body.theme {
 
 		}
 
-		.theme-name {
+		.theme-price {
 
-			float: left;
+			display: none;
 
 		}
 
-		.theme-price {
+		.intro {
 
-			font-weight: bold;
-			color: $canvas-green;
-			float: right;
+			text-align: center;
 
 		}
 
@@ -50,7 +48,37 @@ body.theme {
 
 	}
 
+	.theme-intro,
 	.theme-description {
+
+		img,
+		> * {
+
+			margin-left: auto;
+			margin-right: auto;
+			display: block;
+
+		}
+
+		ul,
+		p {
+
+			margin-bottom: $grid-line-height * $grid-line-height-multiplier;
+
+			&:not(.image) {
+
+				max-width: $grid-total-width * 0.5;
+
+			}
+
+		}
+
+		h2,
+		h3 {
+
+			margin-top: $grid-line-height * $grid-line-height-multiplier;
+
+		}
 
 		.theme-meta {
 
