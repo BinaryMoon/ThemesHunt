@@ -6,6 +6,8 @@
 
 {% include_relative th-search.js %}
 
+{% include_relative th-typography.js %}
+
 {% include_relative th-theme-list.js %}
 
 ;( function( window, document, $ ) {
@@ -22,6 +24,7 @@
 			TH_SmoothScroll.init();
 			TH_ThemeList.init();
 			TH_ResponsiveIframe.init();
+			TH_Typography.init();
 
 		}
 	);
