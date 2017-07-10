@@ -4,11 +4,11 @@ slug: accessible wordpress themes
 date: 2017-06-01 12:56:00 0100
 ---
 
-<p>It’s becoming increasingly important that websites take action to remove barriers that prevent access to websites by people with disabilities. Accessible WordPress themes are a great way to ensure your site is readily usable by everyone. </p>
+It’s becoming increasingly important that websites take action to remove barriers that prevent access to websites by people with disabilities. Accessible WordPress themes are a great way to ensure your site is readily usable by everyone.
 
-<p>Accessible WordPress themes ensure that all users are able to access all the information and functionality a site has to offer. This includes features such as providing clear, understandable user interfaces, text alternatives for any non-text content, ensuring sites are keyboard-navigable without time limits, and making sure content can be used reliably by assistive technologies. </p>
+Accessible WordPress themes ensure that all users are able to access all the information and functionality a site has to offer. This includes features such as providing clear, understandable user interfaces, text alternatives for any non-text content, ensuring sites are keyboard-navigable without time limits, and making sure content can be used reliably by assistive technologies.
 
-<p>For those looking to reach the biggest possible audience, these top 10 Accessible WordPress themes are the best place to start. </p>
+For those looking to reach the biggest possible audience, these top 10 Accessible WordPress themes are the best place to start.
 
 
 <div class="theme-summary" markdown="1">
