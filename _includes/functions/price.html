@@ -1,5 +1,5 @@
 {% if include.price > 0 %}
-${{ include.price | escape }}
+${{ include.price | escape_once }}
 {% else %}
 free
 {% endif %}

@@ -5,7 +5,7 @@ body_class: theme
 
 	<div class="content theme-intro">
 
-		<h1 class="theme-name">{{ page.title | escape }}</h1>
+		<h1 class="theme-name">{{ page.title | escape_once }}</h1>
 
 		<em class="theme-price">{% include functions/price.html price=page.price %}</em>
 
