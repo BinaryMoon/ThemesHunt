@@ -1,17 +1,21 @@
+<div class="theme-summary-title">
+
 {% for theme in site.themes %}
 	{% if theme.title == include.theme %}
 
-<div>
-	<a href="{{ theme.theme_info_url }}" class="theme-screenshot-wrapper">
-		{% include functions/theme-image.html theme=theme.title image="screenshot.png" %}
-	</a>
-</div>
+	<div class="theme-screenshot-wrapper">
+		<a href="{{ theme.theme_info_url }}">
+			{% include functions/theme-image.html theme=theme.title image="screenshot.png" %}
+		</a>
+	</div>
 
-<div class="theme-meta">
-	<h3><a href="{{ theme.theme_info_url }}">{{ theme.title }}</a></h3>
-	<p>{{ theme.intro }}</p>
-</div>
+	<div class="theme-meta">
+		<h3><a href="{{ theme.theme_info_url }}">{{ theme.title }}</a></h3>
+		<p>{{ theme.intro }}</p>
+	</div>
 
 	{% endif %}
 
 {% endfor %}
+
+</div>
