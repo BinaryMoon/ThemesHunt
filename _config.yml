@@ -49,7 +49,7 @@ defaults:
       description: "Hunting WordPress Themes"
       icon: "roundup.png"
 
-gems:
+plugins:
   - jekyll-seo-tag
   - jekyll-redirect-from
 exclude:
