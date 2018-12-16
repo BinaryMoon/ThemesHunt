@@ -9,6 +9,12 @@
 
 		width: 48%;
 
+		@include for-phone {
+
+			width: 100%;
+
+		}
+
 	}
 
 	.theme-screenshot-wrapper {
@@ -20,6 +26,12 @@
 
 			width: 100%;
 			display: block;
+
+		}
+
+		@include for-phone {
+
+			margin-bottom: $grid-line-height;
 
 		}
 
