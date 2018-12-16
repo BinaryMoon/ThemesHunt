@@ -2,6 +2,7 @@
 title: Top 10 WordPress Portfolio Themes
 slug: best wordpress magazine themes
 date: 2017-04-29 10:10:00 0100
+thumb: portfolio
 ---
 
 WordPress Portfolio themes are the best way for photographers, designers, artists, and other creatives to show off their work.

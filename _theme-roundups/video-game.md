@@ -2,6 +2,7 @@
 title: Top 3 WordPress Video Game Themes
 slug: top wordpress video game themes
 date: 2017-04-27 10:10:00 0100
+thumb: videogame
 ---
 
 <!-- kw: WordPress Gaming Themes -->

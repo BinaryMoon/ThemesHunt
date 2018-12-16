@@ -2,6 +2,7 @@
 title: Top 10 WordPress Business Themes
 slug: amazing wordpress business themes
 date: 2017-05-01 12:56:00 0100
+thumb: business
 ---
 
 WordPress is one of the best and most powerful tools for creating a website for your business, and these are some of the best WordPress business themes out there!

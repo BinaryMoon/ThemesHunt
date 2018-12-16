@@ -2,6 +2,7 @@
 title: Top 5 WordPress Magazine Themes
 slug: top wordpress magazine themes
 date: 2017-04-30 10:10:00 0100
+thumb: magazine
 ---
 <!-- kw: WordPress magazine themes -->
 
