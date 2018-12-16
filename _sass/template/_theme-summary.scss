@@ -1,9 +1,15 @@
+.theme-summary {
+
+	margin: ( $grid-line-height * 3 ) 0;
+
+}
+
 .theme-summary-title {
 
-	position: relative;
-	margin: ( $grid-line-height * 2 ) 0;
 	display: flex;
 	justify-content: space-between;
+	flex-wrap: wrap;
+	margin-bottom: $grid-line-height;
 
 	> div {
 
@@ -39,8 +45,6 @@
 
 	.theme-meta {
 
-		margin-bottom: $grid-line-height * 2;
-
 		h3 {
 
 			@include modular-scale( gamma );
@@ -51,7 +55,13 @@
 		p {
 
 			@include post-meta-data;
-			margin: 0;
+			margin-bottom: $grid-line-height;
+
+			&:last-of-type {
+
+				margin-bottom: 0;
+
+			}
 
 		}
 

@@ -2,18 +2,23 @@
 
 	@include clear;
 
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+
 	.roundup {
 
 		margin: 0;
-		float: left;
-		width: 33.33%;
 		margin-bottom: $grid-line-height * 2;
-		padding: 0 ( $grid-gutter / 2 );
+		padding: 0;
+		width: 30%;
 
-		&:nth-child( 3n + 1 ) {
+		@include for-tablet {
+			width: 48%;
+		}
 
-			clear: both;
-
+		@include for-phone {
+			width: 100%;
 		}
 
 		.roundup-icon {
@@ -22,10 +27,24 @@
 			margin-bottom: $grid-line-height / 2;
 			display: block;
 			background: $canvas-color;
+			position: relative;
 
 			img {
 
 				display: block;
+
+			}
+
+			&:after {
+
+				content: '';
+				position: absolute;
+				top: 0;
+				right: 0;
+				bottom: 0;
+				left: 0;
+				background-image: linear-gradient(to bottom right,#F4D040,#59E6A4);
+				opacity: 0.8;
 
 			}
 
