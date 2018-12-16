@@ -40,35 +40,6 @@
 
 	}
 
-	.masthead {
-
-		.container {
-
-			padding: 0;
-
-		}
-
-
-		.branding {
-
-			padding: ( $grid-line-height * $grid-line-height-multiplier) 0;
-
-			h1{
-
-				@include modular-scale( delta );
-
-			}
-
-		}
-
-	}
-
-	body {
-
-		background-image: none;
-
-	}
-
 	.masthead .container,
 	.container {
 
