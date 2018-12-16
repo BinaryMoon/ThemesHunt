@@ -1,8 +1,8 @@
 <div class="roundup">
 
-	{% if include.roundup.icon %}
+	{% if include.roundup.thumb %}
 	<a href="{{ include.roundup.url }}" class="roundup-icon">
-		<img src="{{ "/assets/roundups/" | relative_url }}{{ include.roundup.icon }}" />
+		<img src="{{ "/assets/roundups/small/" | relative_url }}{{ include.roundup.thumb }}.jpg" />
 	</a>
 	{% endif %}
 
