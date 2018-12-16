@@ -6,7 +6,7 @@ body_class: page
 	{% if page.thumb %}
 	<style>
 		.masthead:before {
-			background-image: url({{ "/assets/roundups/large" | relative_url }}{{ page.thumb }}.jpg);
+			background-image: url({{ "/assets/roundups/large/" | relative_url }}{{ page.thumb }}.jpg);
 		}
 	</style>
 	{% endif %}
